@@ -1,0 +1,62 @@
+.nav-link {
+  color: white !important;
+}
+
+.btn-outline-success {
+  color: #fff;
+}
+
+.btn-outline-success:hover {
+  color: black;
+  background-color: #fff !important;
+}
+
+.d-block {
+  width: 100vw;
+  height: 85vh;
+  background-color: red;
+}
+
+.bg-primary {
+  background-color: #33dcff !important;
+}
+
+.nav-link:hover {
+  background-color: #1dcafb;
+  border-radius: 5px;
+  color: #f4f4f4;
+}
+
+.card {
+  height: 30rem;
+}
+
+.card-img-top {
+  height: 17rem;
+}
+
+@media (max-width: 900px) {
+  .card {
+    height: 28rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-img-top {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 22rem;
+    margin-bottom: 2rem;
+  }
+
+  .card-img-top {
+    height: 10rem;
+  }
+}
+
+.secondary {
+  color: green;
+}
